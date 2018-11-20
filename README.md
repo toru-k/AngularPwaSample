@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Running App
+
+Run `npx pushstate-server ./dist/AngularPwaSample`. Navigate to `http://localhost:9000/`.
+
+## Reference
+
+https://qiita.com/puku0x/items/a6db78cc67d1eb960384
