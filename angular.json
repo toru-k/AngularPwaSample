@@ -124,6 +124,19 @@
               ]
             }
           }
+        },
+        "app-shell": {
+          "builder": "@angular-devkit/build-angular:app-shell",
+          "options": {
+            "browserTarget": "AngularPwaSample:build",
+            "serverTarget": "AngularPwaSample:server",
+            "route": "shell"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "AngularPwaSample:build:production"
+            }
+          }
         }
       }
     },
